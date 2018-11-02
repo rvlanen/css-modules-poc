@@ -1,0 +1,16 @@
+@import '../scss/vars.scss';
+
+.base {
+    background-color: pink;
+    border: 2px solid green;
+    padding: $spacer;
+
+    .paragraph {
+        text-transform: uppercase;
+        margin: 0;
+    }
+}
+
+.paragraph {
+    color: blue;
+}

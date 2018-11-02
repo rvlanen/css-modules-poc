@@ -1,0 +1,10 @@
+@import '../scss/vars.scss';
+
+.base {
+    background-color: yellow;
+    padding: $spacer;
+}
+
+.child {
+    border-color: red;
+}
