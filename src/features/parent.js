@@ -13,9 +13,9 @@ const Child = Loadable({
     },
 });
 
-export const Parent = () => (
+export const Parent = ({ showChild }) => (
     <div className={styles.base}>
         Parent
-        <Child className={styles.child} />
+        {showChild && <Child className={styles.child} />}
     </div>
 );
